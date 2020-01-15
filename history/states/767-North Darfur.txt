@@ -1,0 +1,20 @@
+state={
+	id=767
+	name="STATE_767"
+	provinces={
+		7987 8103 10900 
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = SUD
+
+	}
+	manpower=8143
+	buildings_max_level_factor=1.000
+	impassable = yes
+	state_category = wasteland
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=495
+	name="STATE_495"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = BRA
+
+	}
+
+	provinces={
+		1979 2035 2198 4980 5008 5083 5214 5216 5232 8172 8185 8254 10934 10956 10960 12919 12965 13083 13353 13359 13397 13429 13442 13443 13446 13451 13455 13462 13463 13467 13469 
+	}
+	manpower=979900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

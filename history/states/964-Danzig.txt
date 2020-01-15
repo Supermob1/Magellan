@@ -1,0 +1,37 @@
+
+state={
+	id=964
+	name="STATE_964"
+
+	history={
+		owner = DAN
+		victory_points = {
+			362 10 
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			air_base = 3
+			industrial_complex = 1
+			362 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = DAN
+		add_core_of = GER
+		1938.3.12 = {
+			add_claim_by = GER
+
+		}
+
+	}
+
+	provinces={
+		362 3380 
+	}
+	manpower=80100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

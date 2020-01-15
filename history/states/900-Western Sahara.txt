@@ -1,0 +1,23 @@
+state={
+	id=900
+	name="STATE_900"
+	
+	history={
+		owner = SPR
+		add_core_of = MOR
+		add_core_of = WES
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	provinces={
+		2040 10779 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

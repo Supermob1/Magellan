@@ -1,0 +1,21 @@
+state={
+	id=1044
+	name="STATE_1044"
+	
+	history={
+		owner = FRA
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
+	provinces={
+		1374 1563 1577 1592 4554 7426 10453 12210 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

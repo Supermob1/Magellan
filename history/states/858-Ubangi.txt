@@ -1,0 +1,22 @@
+
+state={
+	id=858
+	name="STATE_858"
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COG
+
+	}
+
+	provinces={
+		10883 12741 12824 13341 13355 
+	}
+	manpower=693974
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

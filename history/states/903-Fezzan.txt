@@ -1,0 +1,23 @@
+
+state={
+	id=903
+	name="STATE_903"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		5004 7985 8001 12022 12082 13515 13539 
+	}
+	manpower=2633
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

@@ -1,0 +1,27 @@
+state={
+	id=908
+	name="STATE_908"
+	
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7980 1.0 
+		}
+		add_core_of = ETH
+		1936.6.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+
+	}
+	provinces={
+		5097 7980 8036 12714 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	history={
+		owner = FRA
+		add_core_of = IVO
+		victory_points = {
+			10803 1 
+		}
+		buildings = {
+			infrastructure = 3
+			10803 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		607 5013 9584 10803 13373 13375 13389 13393 13404 13405 13408 13410 13420 13424 13431 13694 13698 13700 13702 
+	}
+	manpower=3850734
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

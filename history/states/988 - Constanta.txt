@@ -1,0 +1,30 @@
+
+state={
+	id=988
+	name="STATE_988"
+
+	history={
+		victory_points = {
+			657 3 
+		}
+		owner = ROM
+		buildings = {
+			infrastructure = 6
+			657 = {
+				naval_base = 8
+
+			}
+			dockyard = 1
+
+		}
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		657 687 3076 9635 13697 
+	}
+	manpower=311062
+	buildings_max_level_factor=1.000
+	state_category=city
+}

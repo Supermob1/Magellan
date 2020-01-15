@@ -1,0 +1,22 @@
+
+state={
+	id=803
+	name="STATE_803"
+
+	history={
+		owner = ENG
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		13356 13369 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

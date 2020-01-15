@@ -1,0 +1,45 @@
+state={
+	id=1021
+	name="STATE_1021"
+	
+	history={
+		owner = ITA
+		victory_points = {
+			6788 10 
+		}
+		victory_points = {
+			6973 1 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			dockyard = 2
+			6788 = {
+				naval_base = 8
+
+			}
+			6973 = {
+				naval_base = 10
+
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = PIE
+		1939.1.1 = {
+			buildings = {
+				dockyard = 3
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		3772 6788 6973 11891 
+	}
+	manpower=2700000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

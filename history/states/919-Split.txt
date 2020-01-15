@@ -1,0 +1,32 @@
+
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = YUG
+		victory_points = {
+			3924 1 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			3924 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = VNC
+
+	}
+
+	provinces={
+		3924 3943 13668 13687 
+	}
+	manpower=431700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

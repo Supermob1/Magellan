@@ -1,0 +1,23 @@
+
+state={
+	id=742
+	name="STATE_742"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+
+	}
+
+	provinces={
+		1384 1919 4467 4542 4923 7224 8027 10187 10417 12218 12250 12805 
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

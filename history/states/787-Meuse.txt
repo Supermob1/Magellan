@@ -1,0 +1,30 @@
+
+state={
+	id=787
+	name="STATE_787"
+
+	history={
+		owner = FRA
+		add_core_of = LOR
+		add_core_of = FRA
+		victory_points = {
+			13757 5 
+		}
+		buildings = {
+			infrastructure = 7
+			5291 = {
+				bunker = 10
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3560 5291 13757 
+	}
+	manpower=342700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=963
+	name="STATE_963"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = SLV
+		add_core_of = VNC
+		add_core_of = YUG
+		add_core_of = TTS
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		13705 
+	}
+	manpower=63159
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

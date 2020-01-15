@@ -1,0 +1,22 @@
+
+state={
+	id=832
+	name="STATE_832"
+
+	history={
+		owner = FRA
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2012 10829 10915 13444 13445 13452 13453 13456 13457 13458 13459 13464 
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

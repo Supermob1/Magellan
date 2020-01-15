@@ -1,0 +1,23 @@
+
+state={
+	id=428
+	name="STATE_428"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		1103 1144 4064 4090 4132 7150 7165 7207 10118 11952 12037 12092 
+	}
+	manpower=590200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

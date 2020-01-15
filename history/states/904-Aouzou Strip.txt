@@ -1,0 +1,23 @@
+
+state={
+	id=904
+	name="STATE_904"
+
+	history={
+		owner = FRA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		13478 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

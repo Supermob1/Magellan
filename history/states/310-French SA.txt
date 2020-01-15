@@ -1,0 +1,32 @@
+
+state={
+	id=310
+	name="STATE_310"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = CAY
+		buildings = {
+			infrastructure = 2
+			13476 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			13476 1 
+		}
+
+	}
+
+	provinces={
+		12885 13468 13473 13474 13476 13477 
+	}
+	manpower=47341
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

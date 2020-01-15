@@ -1,0 +1,20 @@
+state={
+	id=806
+	name="STATE_806"
+	
+	history={
+		owner = BEL
+		add_core_of = BRD
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+	
+	provinces={
+		2220 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

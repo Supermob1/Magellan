@@ -1,0 +1,19 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		614 3614 6643 11787 
+	}
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = YUG
+		add_core_of = SER
+
+	}
+	manpower=585579
+	state_category=town
+}

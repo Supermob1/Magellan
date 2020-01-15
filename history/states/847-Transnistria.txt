@@ -1,0 +1,24 @@
+
+state={
+	id=847
+	name="STATE_847"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = MOL
+
+	}
+
+	provinces={
+		13726 13735 13746 
+	}
+	manpower=63400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

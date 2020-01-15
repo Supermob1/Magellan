@@ -1,0 +1,22 @@
+
+state={
+	id=861
+	name="STATE_861"
+
+	history={
+		owner = ENG
+		add_core_of = TZN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		8182 8201 10845 12967 13278 
+	}
+	manpower=299000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

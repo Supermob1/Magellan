@@ -1,0 +1,21 @@
+state={
+	id=878
+	name="STATE_878"
+	provinces={
+		11580 
+	}
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = CRO
+
+	}
+	manpower=120435
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

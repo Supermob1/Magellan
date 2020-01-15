@@ -1,0 +1,22 @@
+state={
+	id=1029
+	name="STATE_1029"
+	
+	history={
+		owner = VCT
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = ITA
+		add_core_of = VCT
+
+	}
+	
+	provinces={
+		13653 
+	}
+	manpower=71
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

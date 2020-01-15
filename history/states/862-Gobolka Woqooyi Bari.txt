@@ -1,0 +1,22 @@
+
+state={
+	id=862
+	name="STATE_862"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KEN
+
+	}
+
+	provinces={
+		2066 5079 8133 10761 10976 12927 13349 
+	}
+	manpower=392000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

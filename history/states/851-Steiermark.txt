@@ -1,0 +1,32 @@
+
+state={
+	id=851
+	name="STATE_851"
+
+	history={
+		owner = AUS
+		victory_points = {
+			9648 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		653 6687 6691 9646 9648 9650 9679 13738 
+	}
+	manpower=595983
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,21 @@
+state={
+	id=934
+	name="STATE_934"
+	
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MZB
+
+	}
+	
+	provinces={
+		2120 12935 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

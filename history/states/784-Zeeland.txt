@@ -1,0 +1,19 @@
+state={
+	id=784
+	name="STATE_784"
+	provinces={
+		480 9431 
+	}
+	history = {
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			dockyard = 2
+			
+
+		}
+	}
+	manpower=254965
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

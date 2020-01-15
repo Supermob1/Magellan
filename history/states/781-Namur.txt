@@ -1,0 +1,29 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		victory_points = {
+			6537 10 
+		}
+		victory_points = {
+			9444 1 
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+		owner = BEL
+		add_core_of = BEL
+		add_core_of = WLL
+
+	}
+
+	provinces={
+		6537 9444 13782 
+	}
+	manpower=356510
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

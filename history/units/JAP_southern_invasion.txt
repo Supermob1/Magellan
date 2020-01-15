@@ -1,0 +1,139 @@
+﻿units = {
+	
+	division = {
+		location = 12213 #Aparri
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12213 #Aparri
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12213 #Aparri
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12213 #Aparri
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12213 #Aparri
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		location = 4368 #Vigan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4368 #Vigan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4368 #Vigan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		location = 4228 #Central
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4228 #Central
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		location = 4241 #Davao
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4241 #Davao
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		location = 4241 #Davao
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4241 #Davao
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		location = 4282 #Borneo
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4282 #Borneo
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10143 #Borneo
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10199 #Borneo
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10199 #Borneo
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10263 #Sulawesi
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10263 #Sulawesi
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4608 #Surabaya
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4608 #Surabaya
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4608 #Surabaya
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4608 #Surabaya
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 4608 #Surabaya
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+	}
+
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=980
+	name="STATE_980"
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VEN
+		victory_points = {
+			12869 1 
+		}
+
+	}
+
+	provinces={
+		4934 5317 8149 12869 13461 
+	}
+	manpower=5642
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=687
+	name="STATE_687"
+	resources={
+		aluminium=60.000
+	}
+
+	history={
+		owner = ENG
+		add_core_of = GYA
+		buildings = {
+			infrastructure = 2
+			13479 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4982 8107 12716 13466 13475 13479 13488 
+	}
+	manpower=309000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

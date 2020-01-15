@@ -1,0 +1,23 @@
+state={
+	id=876
+	name="STATE_876"
+	
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MAL
+		add_core_of = BEI
+		add_core_of = BEO
+
+	}
+	
+	provinces={
+		7387 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

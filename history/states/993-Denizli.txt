@@ -1,0 +1,20 @@
+state={
+	id=993
+	name="STATE_993"
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TUR
+
+	}
+	
+	provinces={
+		784 10041 11907 12013 12016 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

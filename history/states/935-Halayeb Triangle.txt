@@ -1,0 +1,23 @@
+
+state={
+	id=935
+	name="STATE_935"
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = EGY
+		add_core_of = SUD
+
+	}
+
+	provinces={
+		13509 
+	}
+	manpower=194
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

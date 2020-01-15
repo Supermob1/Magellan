@@ -1,0 +1,21 @@
+state={
+	id=871
+	name="STATE_871"
+	
+	history={
+		owner = INS
+		add_core_of = INS
+		add_core_of = BEO
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	provinces={
+		1404 2047 7415 12243 
+	}
+	manpower=168600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

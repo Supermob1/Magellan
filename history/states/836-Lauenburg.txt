@@ -1,0 +1,20 @@
+state={
+	id=836
+	name="STATE_836"
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+
+	}
+	
+	provinces={
+		11316 11343 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

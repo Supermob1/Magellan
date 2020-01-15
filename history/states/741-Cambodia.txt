@@ -1,0 +1,18 @@
+
+state={
+	id=741
+	name="STATE_741"
+
+	history={
+		add_core_of = CAM
+		owner = FRA
+
+	}
+
+	provinces={
+		4330 7376 12260 
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

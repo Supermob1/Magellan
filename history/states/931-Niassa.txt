@@ -1,0 +1,21 @@
+state={
+	id=931
+	name="STATE_931"
+	
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MZB
+
+	}
+	
+	provinces={
+		2159 2202 2217 10972 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

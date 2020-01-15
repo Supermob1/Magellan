@@ -1,0 +1,29 @@
+state={
+	id=1023
+	name="STATE_1023"
+	
+	history={
+		owner = ITA
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 6
+			925 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = VCT
+
+	}
+	
+	provinces={
+		925 967 11790 11861 13675 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

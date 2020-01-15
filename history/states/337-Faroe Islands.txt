@@ -1,0 +1,26 @@
+
+state={
+	id=337
+	name="STATE_337"
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 4
+			13003 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DEN
+
+	}
+
+	provinces={
+		13003 
+	}
+	manpower=25900
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}
