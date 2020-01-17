@@ -2,7 +2,7 @@
 
 oob = "SMR_1936"
 
-set_research_slots = 3
+
 set_stability = 0.75
 
 
@@ -71,7 +71,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_San Marino_Grand_council.dds"
 	expire = "1960.1.1"
-	ideology = conservatism
+	ideology = allies_aligned_government
 	traits = {
 		
 	}

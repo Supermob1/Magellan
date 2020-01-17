@@ -2,7 +2,7 @@
 
 oob = "DES_1936"
 
-set_research_slots = 3
+
 
 # Starting tech
 set_technology = {
@@ -67,7 +67,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Utah_Henry_Blood.dds"
 	expire = "1950.1.1"
-	ideology = liberalism
+	ideology = allies_aligned_government
 	traits = {
 	}
 }
@@ -77,7 +77,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = axis_aligned_government
 	traits = {
 		
 	}
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = comintern_aligned_government
 	traits = {
 		
 	}

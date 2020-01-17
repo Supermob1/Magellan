@@ -2,7 +2,7 @@
 
 oob = "OCC_1936"
 
-set_research_slots = 3
+
 
 set_technology = {
 	infantry_weapons = 1
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_CAMBO_FRANCECCS_DESC"
 	picture = "Portrait_Catalonia_Cambo_Francecs.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = axis_aligned_government
 	traits = {
 		#
 	}
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_SALVADOR_DALI_DESC"
 	picture = "Portrait_Catalonia_Salvador_Dali"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = allies_aligned_government
 	traits = {
 		#
 	}

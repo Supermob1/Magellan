@@ -1,0 +1,56 @@
+	researchteam_trigger = {
+		if = {
+			limit = {
+				amount_taken_ideas = {
+					amount < 1
+					categories = { research_production }
+				}
+			}
+			num_of_civilian_factories > 10
+		}
+		else_if = {
+			limit = {
+				amount_taken_ideas = {
+					amount < 2
+					categories = { research_production }
+				}
+			}
+			num_of_civilian_factories > 20
+		}
+		else_if = {
+			limit = {
+				amount_taken_ideas = {
+					amount < 3
+					categories = { research_production }
+				}
+			}
+			num_of_civilian_factories > 30
+		}
+		else_if = {
+			limit = {
+				amount_taken_ideas = {
+					amount < 4
+					categories = { research_production }
+				}
+			}
+			num_of_civilian_factories > 50
+		}
+		else_if = {
+			limit = {
+				amount_taken_ideas = {
+					amount < 5
+					categories = { research_production }
+				}
+			}
+			num_of_civilian_factories > 80
+		}
+		else_if = {
+			limit = {
+				amount_taken_ideas = {
+					amount < 6
+					categories = { research_production }
+				}
+			}
+			num_of_civilian_factories > 100
+		}
+	}

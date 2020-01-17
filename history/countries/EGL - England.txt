@@ -2,7 +2,7 @@
 
 oob = "EGL_1936"
 
-set_research_slots = 3
+
 
 # Starting tech
 set_technology = {
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 	picture = "Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = allies_aligned_government
 	traits = {
 		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1938.1.1"
-	ideology = liberalism
+	ideology = allies_aligned_government
 	traits = {
 		
 	}
@@ -86,7 +86,7 @@ create_country_leader = {
 #	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 #	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 #	expire = "1965.1.1"
-#	ideology = liberalism
+#	ideology = allies_aligned_government
 #	traits = {
 #		
 #	}
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = axis_aligned_government
 	traits = {
 		champion_of_peace_1
 		economic_reformer
@@ -109,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_PALME_DUTT_DESC"
 	picture = "Portrait_Britain_Palme_Dutt.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = comintern_aligned_government
 	traits = {
 		
 	}

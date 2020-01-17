@@ -1,7 +1,6 @@
 ﻿capital = 984
 
 oob = "SOS_1936"
-set_research_slots = 2
 set_convoys = 10
 add_political_power = 200
 set_stability = 0.8
@@ -54,7 +53,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Lyudvig Alekseyevich Chibirov"
 	picture = ""
-	ideology = socialism
+	ideology = allies_aligned_government
 
 	traits = {
 	#

@@ -2,7 +2,7 @@
 
 oob = "DAN_1936"
 
-set_research_slots = 3
+
 
 # Starting tech
 set_technology = {
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTHUR_KARL_GREISER_DESC"
 	picture = "Portrait_Danzig_Arthur_Greiser.dds"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = neutrality_aligned_government
 	traits = {
 		#
 	}
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_CARL_BURCKHARDT_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology =stalinism
+	ideology =comintern_aligned_government
 	traits = {
 		#
 	}
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTHUR_BRILL_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = allies_aligned_government
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_ALBERT_FORSTER_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = axis_aligned_government
 	traits = {
 		#
 	}

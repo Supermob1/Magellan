@@ -2,7 +2,7 @@
 
 oob = "TKI_1936"
 
-set_research_slots = 3
+
 
 # Starting tech
 # clone of France
@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology 
+	ideology = axis_aligned_government 
 	traits = {
 		
 	}
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = comintern_aligned_government
 	traits = {
 		
 	}
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = allies_aligned_government
 	traits = {
 		
 	}
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = neutrality_aligned_government
 	traits = {
 		
 	}

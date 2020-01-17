@@ -1,6 +1,6 @@
 ﻿capital = 525
 
-set_research_slots = 4
+
 set_stability = 0.65
 
 
@@ -67,7 +67,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Korea_syngman.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = allies_aligned_government
 	traits = {
 		#
 	}
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = neutrality_aligned_government
 	traits = {
 		#
 	}

@@ -2,7 +2,7 @@
 
 oob = "KAR_1936"
 
-set_research_slots = 3
+
 
 add_ideas = {
 	limited_conscription
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_WILLE_KUUSINEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = allies_aligned_government
 	traits = {
 		#
 	}
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_PAVEL_PROKKONEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = comintern_aligned_government
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_WILLE_KUUSINEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = axis_aligned_government
 	traits = {
 		#
 	}
@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_PAVEL_PROKKONEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = neutrality_aligned_government
 	traits = {
 		#
 	}

@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Armenia_Drastamat_Kanayan.dds"
 	expire = "1995.1.1"
-	ideology = fascism_ideology
+	ideology = axis_aligned_government
 	traits = {
 	}
 }
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Armenia_Hovhannes_Kajaznuni.dds"
 	expire = "1995.1.1"
-	ideology = conservatism
+	ideology = allies_aligned_government
 	traits = {
 	}
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Armenia_Hovhannes_Bagramyan.dds"
 	expire = "1995.1.1"
-	ideology = stalinism
+	ideology = comintern_aligned_government
 	traits = {
 	}
 }

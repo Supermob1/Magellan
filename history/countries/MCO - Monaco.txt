@@ -2,7 +2,7 @@
 
 oob = "MCO_1936"
 
-set_research_slots = 3
+
 set_stability = 0.75
 
 give_military_access = FRA
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Monaco_Loius.dds"
 	expire = "1960.1.1"
-	ideology = despotism
+	ideology = neutrality_aligned_government
 	traits = {
 		
 	}

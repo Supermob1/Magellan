@@ -2,7 +2,7 @@
 
 oob = "TRV"
 
-set_research_slots = 3
+
 
 # Starting tech
 set_technology = {
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Alexandru_Hoi4.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = allies_aligned_government
 	traits = {
 		#
 	}
@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Constantin_Daicoviciu.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = comintern_aligned_government
 	traits = {
 		#
 	}
@@ -83,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_MICHAEL_I_DESC"
 	picture = "Kos_Karoly.dds"				
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = neutrality_aligned_government
 	traits = {
 		#
 	}
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = axis_aligned_government
 	traits = {
 		#
 	}

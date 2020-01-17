@@ -1,6 +1,6 @@
 ﻿capital = 1107
 
-set_research_slots = 3
+
 
 oob = "LOR_1936"
 
@@ -42,7 +42,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Bavaria_Paul Giesler.dds"
 	expire = "1960.1.1"
-	ideology = nazism
+	ideology = axis_aligned_government
 	traits = {
 		#
 	}
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Bavaria_Ernst.dds"
 	expire = "1960.1.1"
-	ideology = stalinism
+	ideology = comintern_aligned_government
 	traits = {
 		
 	}
@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Bavaria_Fritz.dds"
 	expire = "1960.1.1"
-	ideology = socialism
+	ideology = allies_aligned_government
 	traits = {
 		
 	}
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Bavaria_Rupprecht.dds"
 	expire = "1951.1.1"
-	ideology = despotism
+	ideology = neutrality_aligned_government
 	traits = {
 	}
 }
