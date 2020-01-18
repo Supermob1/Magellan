@@ -1,0 +1,46 @@
+scripted_gui = {
+
+	government_main_container = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "government_main_container"
+		visible = {
+			always = yes
+		}
+		effects= {
+			leader_frame2_click = {
+				if = {
+					limit = {
+						check_variable = { government_button_open = 1 }
+					}
+					set_variable = { government_button_open = 0 }
+				}
+				else = {
+					set_variable = { government_button_open = 1 }
+				}
+			}
+		}
+	}
+	government_main_window = {
+		context_type = player_context
+		window_name = "government_main_window"
+		visible = {
+			check_variable = { government_button_open = 1 }
+		}
+		effects= {
+			close_button_window_click = {
+				set_variable = { government_button_open = 0.0 } 
+			}
+		}
+	}
+	government_select_minister = {
+		context_type = player_context
+		window_name = "government_select_minister"
+		visible = {
+			check_variable = { government_button_open = 1 }
+		}
+		effects= {
+		}
+	}
+}
+

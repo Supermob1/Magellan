@@ -1,0 +1,172 @@
+guiTypes = {
+	containerWindowType = {
+		name = "government_main_container"
+		position = { x = 10 y = 45 }
+		size = { width = 400 height= 200 }
+		
+		buttonType = {
+			name = "leader_frame2"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 0 y = 0 }		
+			clicksound = click_default
+		}
+		
+		instantTextboxType = {
+			name = "government_name"
+			position = { x = 8 y = 225 }
+			font = "hoi_18mbs"
+			text = "government_name"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	}
+	containerWindowType = {
+		name = "government_main_window"
+		position = { x = -356 y = 100 }	
+		show_position = { x = 544 y = 100 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=540 }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window2_1b_border"
+		}
+		
+		containerWindowType = {
+			name = "government_select_minister"
+			size = { width = 1000 height = 74 }
+			clipping = no
+			
+			instantTextboxType = {
+				name = "head_of_state_title"
+				position = { x = 5 y = 20 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = "head_of_state_title"
+				maxWidth = 160
+				maxHeight = 18
+				format = center	
+				alwaystransparent = yes			
+			}
+			
+			buttonType = {
+				name = "head_of_state_portrait"
+				position = { x = 40 y = 40 }
+				spriteType = "GFX_government_minister"
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "head_of_government_title"
+				position = { x = 230 y = 20 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = "head_of_government_title"
+				maxWidth = 160
+				maxHeight = 18
+				format = center	
+				alwaystransparent = yes			
+			}
+			
+			buttonType = {
+				name = "head_of_government_portrait"
+				position = { x = 240 y = 40 }
+				spriteType = "GFX_government_minister"
+				clicksound = click_default
+			}
+
+			instantTextboxType = {
+				name = "foreign_minister_title"
+				position = { x = 15 y = 190 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = "foreign_minister_title"
+				maxWidth = 160
+				maxHeight = 18
+				format = center	
+				alwaystransparent = yes			
+			}
+			
+			buttonType = {
+				name = "foreign_minister_portrait"
+				position = { x = 40 y = 210 }
+				spriteType = "GFX_government_minister"
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "head_of_intelligence_title"
+				position = { x = 225 y = 190 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = "head_of_intelligence_title"
+				maxWidth = 160
+				maxHeight = 18
+				format = center	
+				alwaystransparent = yes			
+			}
+			
+			buttonType = {
+				name = "head_of_intelligence_portrait"
+				position = { x = 240 y = 210 }
+				spriteType = "GFX_government_minister"
+				clicksound = click_default
+			}
+
+			instantTextboxType = {
+				name = "security_minister_title"
+				position = { x = 16 y = 360 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = "security_minister_title"
+				maxWidth = 160
+				maxHeight = 18
+				format = center	
+				alwaystransparent = yes			
+			}
+			
+			buttonType = {
+				name = "security_minister_portrait"
+				position = { x = 40 y = 380 }
+				spriteType = "GFX_government_minister"
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "armament_minister_title"
+				position = { x = 225 y = 360 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = "armament_minister_title"
+				maxWidth = 160
+				maxHeight = 18
+				format = center	
+				alwaystransparent = yes			
+			}
+			
+			buttonType = {
+				name = "armament_minister_portrait"
+				position = { x = 240 y = 380 }
+				spriteType = "GFX_government_minister"
+				clicksound = click_default
+			}
+			
+		}
+	
+		buttonType = {
+			name = "close_button_window"
+			position = { x = -42 y = 5 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}

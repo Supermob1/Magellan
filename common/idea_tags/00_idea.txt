@@ -22,6 +22,23 @@ idea_categories = {
 		cost = 150
 		removal_cost = 0
 	}
+	government_staff = {
+		hidden = yes
+		
+		cost = 0
+		removal_cost = -1
+	}
+	military_staff = {
+		slot = army_chief 
+		slot = navy_chief 
+		slot = air_chief
+		slot = high_command
+		slot = high_command
+		slot = high_command
+		
+		cost = 150
+		removal_cost = 0
+	}
 	
 	research_production = {
 		slot = research_team

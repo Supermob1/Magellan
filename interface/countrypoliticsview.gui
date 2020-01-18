@@ -423,24 +423,6 @@ guiTypes = {
 			spriteType = "GFX_leader_unknown"
 		}
 		
-		buttonType = {
-			name = "leader_frame2"
-			spriteType = "GFX_pol_leader_frame"
-			position = { x = 10 y = 44 }		
-			clicksound = click_default
-		}
-		
-		instantTextboxType = {
-			name = "leader_name"
-			position = { x = 18 y = 271 }
-			font = "hoi_18mbs"
-			text = "leader_name"
-			maxWidth = 155
-			maxHeight = 20
-			format = center
-			vertical_alignment = center
-		}
-		
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 425 }

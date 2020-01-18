@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+	#Government in Exile
+
+	spriteType = {
+		name = "GFX_government_minister"
+		texturefile = "gfx/leaders/ministers/base.dds"
+	}
+}
