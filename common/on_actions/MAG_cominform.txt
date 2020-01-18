@@ -1,0 +1,44 @@
+on_actions = {
+	on_release_as_free = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = cominform_formed
+				}
+				set_party_name = { 
+					ideology = communism 
+					long_name = "Cominform" 
+					name = "Cominform"
+				}
+			}
+		}
+	}
+	on_liberate = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = cominform_formed
+				}
+				set_party_name = { 
+					ideology = communism 
+					long_name = "Cominform" 
+					name = "Cominform"
+				}
+			}
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = cominform_formed
+				}
+				set_party_name = { 
+					ideology = communism 
+					long_name = "Cominform" 
+					name = "Cominform"
+				}
+			}
+		}
+	}
+}

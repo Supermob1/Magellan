@@ -1,0 +1,13 @@
+################
+#### SOVIET ####
+################
+
+SOV_Foreign_Policy = {
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+		always = yes
+	}
+		
+}
