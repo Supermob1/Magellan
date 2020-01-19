@@ -1,9 +1,15 @@
 spriteTypes = {
 	
-	#Government in Exile
-
 	spriteType = {
-		name = "GFX_government_minister"
+		name = "GFX_government_none"
 		texturefile = "gfx/leaders/ministers/base.dds"
+	}
+	spriteType = {
+		name = "GFX_government_astolfo"
+		texturefile = "gfx/leaders/ministers/astolfo.dds"
+	}
+	spriteType = {
+		name = "GFX_government_dextrose"
+		texturefile = "gfx/leaders/ministers/dextrose.dds"
 	}
 }

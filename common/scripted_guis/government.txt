@@ -88,6 +88,45 @@ scripted_gui = {
 			close_button_window_click = {
 				set_variable = { minister_choice_button_open = 0.0 } 
 			}
+			button_add_right_click = {
+				set_variable = { astolfo = 1.0 }
+			}
+			button_add_click = {
+				if = {
+					limit = {
+						check_variable = { astolfo = 1 }
+					}
+					ROOT = {
+						add_to_array = { prev.minister_array = astolfo } 
+					}
+				}
+			}
+			minister_assign_click = {
+				random_country = {
+					limit = {
+						#only add if not player and not in array
+						not = { is_in_array = { minister_array = astolfo } }
+					}
+					set_country_flag = has_minister_1
+					remove_from_array = { 
+						array = from.minister_array 
+						index = i 
+					}
+				}
+				
+			}
+			minister_fire_click = {
+				remove_from_array = { 
+					array = from.minister_array 
+					index = i 
+				}
+			}
+		}
+		properties = {
+			minister_astolfo = {
+				image = "[Getministerportrait]"
+				frame = 1
+			}
 		}
 	}
 }
