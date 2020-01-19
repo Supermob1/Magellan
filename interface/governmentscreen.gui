@@ -59,6 +59,37 @@ guiTypes = {
 				position = { x = 40 y = 40 }
 				spriteType = "GFX_government_none"
 				clicksound = click_default
+				pdx_tooltip = "MINISTER_HINT"
+			}
+			instantTextboxType = {
+				name = "minister_name"
+				position = { x = 80 y = 38 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "MINISTER_NAME"
+				maxWidth = 260
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "minister_ideology"
+				position = { x = 80 y = 54 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "MINISTER_IDEOLOGY"
+				maxWidth = 260
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "minister_traits"
+				position = { x = 80 y = 70 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "MINISTER_TRAITS"
+				maxWidth = 260
+				maxHeight = 20
+				format = left
 			}
 			
 			instantTextboxType = {
@@ -78,6 +109,7 @@ guiTypes = {
 				position = { x = 240 y = 40 }
 				spriteType = "GFX_government_none"
 				clicksound = click_default
+				pdx_tooltip = "MINISTER_HINT"
 			}
 
 			instantTextboxType = {

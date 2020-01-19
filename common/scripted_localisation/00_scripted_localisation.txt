@@ -8,49 +8,41 @@
 # localization_key -> points to the localization key
 # that'll be used if trigger passes
 defined_text = { # Country
-	name = Getministername
-	text = {
-		trigger = {
-			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = astolfo
-			}
-		}
-		localization_key = minister_1
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = 2
-			}
-		}
-		localization_key = minister_2
-	}
-}
-defined_text = { # Country
 	name = Getministerideology
 	text = {
 		trigger = {
 			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = astolfo
-			}
+			check_variable = { i = 0 }
 		}
 		localization_key = minister_1_ideology
 	}
 	text = {
 		trigger = {
 			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = 2
-			}
+			check_variable = { i = 1 }
 		}
 		localization_key = minister_2_ideology
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { i = 2 }
+		}
+		localization_key = minister_3_ideology
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { i = 3 }
+		}
+		localization_key = minister_4_ideology
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { i = 4 }
+		}
+		localization_key = minister_5_ideology
 	}
 }
 defined_text = { # Country
@@ -58,44 +50,150 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = astolfo
-			}
+			check_variable = { i = 0 }
 		}
 		localization_key = minister_1_trait
 	}
 	text = {
 		trigger = {
 			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = 2
-			}
+			check_variable = { i = 1 }
 		}
 		localization_key = minister_2_trait
 	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { i = 2 }
+		}
+		localization_key = minister_3_trait
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { i = 3 }
+		}
+		localization_key = minister_4_trait
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { i = 4 }
+		}
+		localization_key = minister_5_trait
+	}
 }
-defined_text = { # Country
-	name = Getministerportrait
-	text = {
-		trigger = {
+defined_text = { #
+    name = Getministername   
+	text = { 
+        trigger = {
 			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = astolfo
-			}
-		}
-		localization_key = "GFX_government_dextrose"
-	}
-	text = {
-		trigger = {
+            check_variable = { i = 0 }
+        }
+        localization_key = minister_1
+    }
+	text = { 
+        trigger = {
 			original_tag = GER
-			is_in_array = {
-				array = minister_array
-				value = dextrose
-			}
-		}
-		localization_key = "GFX_government_astolfo"
-	}
+            check_variable = { i = 1 }
+        }
+        localization_key = minister_2
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 2 }
+        }
+        localization_key = minister_3
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 3 }
+        }
+        localization_key = minister_4
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 4 }
+        }
+        localization_key = minister_5
+    }
+}
+defined_text = { #
+    name = Getministerportrait   
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 0 }
+        }
+        localization_key = "GFX_government_astolfo"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 1 }
+        }
+        localization_key = "GFX_government_dextrose"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 2 }
+        }
+        localization_key = "GFX_government_blue"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 3 }
+        }
+        localization_key = "GFX_government_loli"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 4 }
+        }
+        localization_key = "GFX_government_Walter"
+    }
+}
+defined_text = { #
+    name = GetSelectMinister
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 0 }
+        }
+        localization_key = "GFX_government_astolfo"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 1 }
+        }
+        localization_key = "GFX_government_dextrose"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 2 }
+        }
+        localization_key = "GFX_government_blue"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 3 }
+        }
+        localization_key = "GFX_government_loli"
+    }
+	text = { 
+        trigger = {
+			original_tag = GER
+            check_variable = { i = 4 }
+        }
+        localization_key = "GFX_government_Walter"
+    }
 }

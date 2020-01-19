@@ -12,4 +12,16 @@ spriteTypes = {
 		name = "GFX_government_dextrose"
 		texturefile = "gfx/leaders/ministers/dextrose.dds"
 	}
+	spriteType = {
+		name = "GFX_government_blue"
+		texturefile = "gfx/leaders/ministers/blue.dds"
+	}
+	spriteType = {
+		name = "GFX_government_loli"
+		texturefile = "gfx/leaders/ministers/loli.dds"
+	}
+	spriteType = {
+		name = "GFX_government_Walter"
+		texturefile = "gfx/leaders/ministers/walter.dds"
+	}
 }
