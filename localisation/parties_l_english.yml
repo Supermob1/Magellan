@@ -18,3 +18,5 @@
  head_of_intelligence_title:0 "Head of Intelligence"
  security_minister_title:0 "Security Minister"
  armament_minister_title:0 "Armament Minister"
+ SELECT_MINISTER:0 "Select Minister"
+ FIREMINISTER:0 "Fire Minister"

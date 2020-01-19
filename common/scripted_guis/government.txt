@@ -31,15 +31,63 @@ scripted_gui = {
 			close_button_window_click = {
 				set_variable = { government_button_open = 0.0 } 
 			}
+			head_of_state_portrait_click = {
+				if = {
+					limit = {
+						check_variable = { minister_choice_button_open = 1 }
+					}
+					set_variable = { minister_choice_button_open = 0.0 } 
+					else = {
+						limit = {
+							check_variable = { minister_choice_button_open > 1 }
+						}
+						set_variable = { minister_choice_button_open = 1.0 }
+					}
+					else = {
+						set_variable = { minister_choice_button_open = 1.0 }
+					}
+				}
+			}
+			head_of_government_portrait_click = {
+				if = {
+					limit = {
+						check_variable = { minister_choice_button_open = 2 }
+					}
+					set_variable = { minister_choice_button_open = 0.0 } 
+					else = {
+						limit = {
+							check_variable = { minister_choice_button_open = 1 }
+						}
+						set_variable = { minister_choice_button_open = 2.0 }
+					}
+					else = {
+						set_variable = { minister_choice_button_open = 2.0 }
+					}
+				}
+			}
 		}
 	}
-	government_select_minister = {
+	government_minister_choice = {
 		context_type = player_context
-		window_name = "government_select_minister"
+		window_name = "government_minister_choice"
 		visible = {
-			check_variable = { government_button_open = 1 }
+			check_variable = { 
+				var = 0
+				value = minister_choice_button_open
+				compare = not_equals
+			}
+		}
+		dynamic_lists = {
+			minister_grid = {
+				array = minister_array
+				change_scope = yes
+				entry_container = choose_minister_entry
+			}
 		}
 		effects= {
+			close_button_window_click = {
+				set_variable = { minister_choice_button_open = 0.0 } 
+			}
 		}
 	}
 }
