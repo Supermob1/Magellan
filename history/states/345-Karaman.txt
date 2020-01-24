@@ -1,22 +1,21 @@
-
+	
 state={
 	id=345
 	name="STATE_345"
 
 	history={
-		owner = TUR
+		owner = ENG
+		add_core_of = KUW
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 4
 		}
-		add_core_of = TUR
 
 	}
 
 	provinces={
-		4124 7026 10056 
+		13706 
 	}
-	manpower=411798
+	manpower=35000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

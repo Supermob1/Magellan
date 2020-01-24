@@ -1,21 +1,23 @@
+
 state={
 	id=996
 	name="STATE_996"
-	
+
 	history={
-		owner = TUR
+		owner = SOV
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
-		add_core_of = TUR
+		add_core_of = SOV
+		add_core_of = AZR
 
 	}
-	
+
 	provinces={
-		6919 9868 9954 11797 
+		6763 
 	}
-	manpower=92821
+	manpower=50000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

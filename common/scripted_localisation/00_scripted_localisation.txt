@@ -164,35 +164,35 @@ defined_text = { #
 	text = { 
         trigger = {
 			original_tag = GER
-            check_variable = { i = 0 }
+            check_variable = { selected_minister = 0 }
         }
         localization_key = "GFX_government_astolfo"
     }
 	text = { 
         trigger = {
 			original_tag = GER
-            check_variable = { i = 1 }
+            check_variable = { selected_minister = 1 }
         }
         localization_key = "GFX_government_dextrose"
     }
 	text = { 
         trigger = {
 			original_tag = GER
-            check_variable = { i = 2 }
+            check_variable = { selected_minister = 2 }
         }
         localization_key = "GFX_government_blue"
     }
 	text = { 
         trigger = {
 			original_tag = GER
-            check_variable = { i = 3 }
+            check_variable = { selected_minister = 3 }
         }
         localization_key = "GFX_government_loli"
     }
 	text = { 
         trigger = {
 			original_tag = GER
-            check_variable = { i = 4 }
+            check_variable = { selected_minister = 4 }
         }
         localization_key = "GFX_government_Walter"
     }

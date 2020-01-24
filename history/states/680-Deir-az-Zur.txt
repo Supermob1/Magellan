@@ -4,19 +4,30 @@ state={
 	name="STATE_680"
 
 	history={
-		owner = FRA
+		owner = SOV
+		victory_points = {
+			3653 3 
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
 
 		}
-		add_core_of = SYR
+		add_core_of = SOV
+		add_core_of = GEO
 
 	}
 
 	provinces={
-		1578 2013 7513 
+		654 672 772 3653 3656 3658 6674 
 	}
-	manpower=100000
+	manpower=421000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

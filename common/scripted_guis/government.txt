@@ -97,14 +97,14 @@ scripted_gui = {
 				}
 			}
 			minister_assign_click = {
-				set_variable = { minister_array^i = 1 } 
-			}
-			minister_fire_click = {
-				remove_from_array = {
+				is_in_array = {
 					array = minister_array
 					value = 0
-					index = i
 				}
+				set_variable = { selected_minister = minister_array^1 }
+			}
+			minister_fire_click = {
+				remove_from_array = { minister_array = 0 }
 			}
 		}
 		properties = {

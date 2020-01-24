@@ -1,18 +1,20 @@
+
 state={
 	id=991
 	name="STATE_991"
-	
+
 	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = TUR
 
 	}
-	
+
 	provinces={
-		785 856 981 3856 3927 6945 11796 11898 
+		784 785 856 981 3856 3876 3927 3951 3983 6945 9878 10041 11796 11831 11898 11907 12013 12016 
 	}
 	manpower=55763
 	buildings_max_level_factor=1.000

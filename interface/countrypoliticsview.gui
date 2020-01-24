@@ -422,6 +422,17 @@ guiTypes = {
 			position = { x = 18 y = 58 }
 			spriteType = "GFX_leader_unknown"
 		}
+
+		instantTextboxType = {
+			name = "leader_name"
+			position = { x = 18 y = 271 }
+			font = "hoi_18mbs"
+			text = "leader_name"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
 		
 		containerWindowType = {
 			name = "ideas"

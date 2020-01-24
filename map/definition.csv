@@ -5004,7 +5004,7 @@
 5003;51;102;153;land;false;desert;6
 5004;51;102;208;land;false;desert;5
 5005;51;105;68;land;true;desert;7
-5006;51;105;173;land;false;mountain;7
+5006;51;105;173;land;true;mountain;7
 5007;51;108;33;land;false;hills;6
 5008;51;108;88;land;false;jungle;3
 5009;51;108;138;land;false;mountain;6
@@ -13704,7 +13704,7 @@
 13703;0;0;82;land;false;forest;1
 13704;48;7;34;land;false;plains;1
 13705;3;180;32;land;true;plains;1
-13706;106;224;134;land;false;forest;1
+13706;106;224;134;land;true;forest;1
 13707;97;11;96;land;false;mountain;1
 13708;172;23;180;land;false;mountain;1
 13709;0;22;177;land;true;urban;1

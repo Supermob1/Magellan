@@ -1,21 +1,29 @@
+
 state={
 	id=990
 	name="STATE_990"
-	
+
 	history={
-		owner = TUR
+		owner = YEM
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 3
+			10840 = {
+				naval_base = 1
+
+			}
+
 		}
-		add_core_of = TUR
+		victory_points = {
+			10840 3 
+		}
+		add_core_of = YEM
 
 	}
-	
+
 	provinces={
-		909 3907 3951 6808 6871 11831 
+		1920 10840 
 	}
-	manpower=70758
+	manpower=2247000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

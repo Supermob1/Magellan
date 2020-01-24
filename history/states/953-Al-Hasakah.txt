@@ -1,22 +1,23 @@
+
 state={
 	id=953
 	name="STATE_953"
-	
+
 	history={
-		owner = FRA
+		owner = SOV
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 5
+			
 		}
-		add_core_of = SYR
-		add_core_of = KUR
+		add_core_of = KBN
+		add_core_of = SOV
 
 	}
-	
+
 	provinces={
-		1549 1634 10882 
+		717 3698 9663 
 	}
-	manpower=120000
+	manpower=400000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

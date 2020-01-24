@@ -21,13 +21,6 @@ state={
 			9561 1 
 		}
 		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-
-			}
-
-		}
 
 	}
 

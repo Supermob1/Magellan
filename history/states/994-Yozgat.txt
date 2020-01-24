@@ -1,21 +1,23 @@
+
 state={
 	id=994
 	name="STATE_994"
-	
+
 	history={
-		owner = TUR
+		owner = SAU
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = TUR
+		add_core_of = SAU
+		add_core_of = HJZ
 
 	}
-	
+
 	provinces={
-		804 3862 3964 11826 11844 
+		5006 7107 10786 
 	}
-	manpower=58452
+	manpower=10000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

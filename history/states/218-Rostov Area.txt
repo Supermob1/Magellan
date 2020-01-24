@@ -24,11 +24,6 @@ state={
 		add_core_of = RUS
 		add_core_of = DON
 		add_core_of = WLG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
 	}
 
 	provinces={

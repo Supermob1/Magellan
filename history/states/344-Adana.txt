@@ -4,20 +4,19 @@ state={
 	name="STATE_344"
 
 	history={
-		owner = TUR
+		owner = PER
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 3
 
 		}
-		add_core_of = TUR
+		add_core_of = PER
 
 	}
 
 	provinces={
-		886 3921 6813 
+		1636 
 	}
-	manpower=200000
+	manpower=211203
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }
