@@ -4,23 +4,21 @@ state={
 	name="STATE_33"
 
 	history={
-		owner = FRA
-		victory_points = {
-			3655 1 
-		}
 		victory_points = {
 			651 1 
 		}
+		owner = FRA
 		buildings = {
 			infrastructure = 6
 
 		}
+		add_core_of = ORL
 		add_core_of = FRA
 
 	}
 
 	provinces={
-		651 669 3655 6644 6651 9629 11869 
+		651 669 3626 3655 6648 6651 9629 
 	}
 	manpower=636400
 	buildings_max_level_factor=1.000

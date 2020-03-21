@@ -11,22 +11,21 @@ state={
 		victory_points = {
 			13011 5 
 		}
-		victory_points = {
-			551 1 
-		}
 		buildings = {
 			infrastructure = 7
+			industrial_complex = 1
 			air_base = 10
 
 		}
 		add_core_of = FRA
+		add_core_of = CMP
 
 	}
 
 	provinces={
-		551 3506 3533 6531 9490 9505 11732 13011 13747 13752 13756 
+		551 3506 3533 6531 6949 9490 11518 11732 13011 
 	}
-	manpower=528100
+	manpower=1030100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }
